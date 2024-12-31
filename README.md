@@ -41,10 +41,16 @@ Ensure you have Python 3.8 or higher installed. Install the required dependencie
 This project uses the `yolo11n-pose.pt` model. It will be downloaded when program is run. After initial download the program will preload the model.
 
 ### 4. Run the Game
-Run the script to start the game:
+Run the script to start the game (on GPU):
 ```bash
-python space_invaders.py
+python CpuSpaceInvaders.py
 ```
+
+If you have setup cuda on your device, run the script to start the game (on GPU):
+```bash
+python Space_invaders.py
+```
+
 
 ## How to Play
 1. Ensure your webcam is functioning.
@@ -54,7 +60,7 @@ python space_invaders.py
 5. Aim for the highest score possible!
 
 ## Project Structure
-- `space_invaders.py`: Main game script.
+- `CpuSpaceInvaders` and `space_invaders.py`: Main game scripts.
 - `requirements.txt`: List of dependencies.
 - `yolo11n-pose.pt`: YOLO pose detection model file (not included; download separately).
 

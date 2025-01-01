@@ -13,19 +13,6 @@ This project is a modern take on the classic Space Invaders game, where the play
 - A GPU is recommended for smoother YOLO detection.
 - A webcam for pose detection.
 
-### Python Dependencies
-The required dependencies are listed in `requirements.txt`:
-```txt
-cv2
-numpy
-pygame
-ultralytics
-```
-Install them using:
-```bash
-pip install -r requirements.txt
-```
-
 ## Getting Started
 
 ### 1. Clone the Repository
@@ -40,7 +27,21 @@ Ensure you have Python 3.8 or higher installed. Install the required dependencie
 ### 3. Download YOLO Model
 This project uses the `yolo11n-pose.pt` model. It will be downloaded when program is run. After initial download the program will preload the model.
 
-### 4. Run the Game
+### 4. Python Dependencies
+The required dependencies are listed in `requirements.txt`:
+```txt
+cv2
+numpy
+pygame
+ultralytics
+```
+Install them using:
+```bash
+pip install -r requirements.txt
+```
+
+
+### 5. Run the Game
 Run the script to start the game (on GPU):
 ```bash
 python CpuSpaceInvaders.py

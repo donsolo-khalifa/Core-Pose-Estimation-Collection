@@ -61,7 +61,7 @@ python Space_invaders.py
 5. Aim for the highest score possible!
 
 ## Project Structure
-- `CpuSpaceInvaders` and `space_invaders.py`: Main game scripts.
+- `CpuSpaceInvaders` and `Space_invaders.py`: Main game scripts.
 - `requirements.txt`: List of dependencies.
 - `yolo11n-pose.pt`: YOLO pose detection model file (not included; download separately).
 

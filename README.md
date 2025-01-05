@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 
 ### 5. Run the Game
-Run the script to start the game (on GPU):
+Run the script to start the game (on CPU):
 ```bash
 python CpuSpaceInvaders.py
 ```
